@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="LandingPage styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Instagram</h2>
+        <div class="post">
+            <p><strong>mahi7781</strong></p>
+            <img src="https://images.indianexpress.com/2024/05/Dhoni-future.jpg" alt="Post Image">
+            <p>mahi7781  Thanks for inviting me @BuildConfidence Event. </p>
+            <div class="actions">
+                <button onclick="likePost(this)">❤️ <span>0</span></button>
+                <button onclick="toggleComments(this)">Comments 💬</button>
+            </div>
+            <div class="comments">
+                <input type="text" placeholder="Add a comment...">
+                <button onclick="addComment(this)">Post</button>
+                <div class="comment-list"></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="LandingPage script.js"></script>
+</html>
